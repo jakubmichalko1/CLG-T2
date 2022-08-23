@@ -4,7 +4,7 @@
   }
   
 .column {
-    flex: 15%;
+    flex: 25%;
     padding: 0px;
   }
 img {
@@ -14,7 +14,6 @@ img {
 }
 figcaption {
     text-align: center;
-    
 }
 h2 {
     text-decoration-line: underline;
@@ -22,12 +21,11 @@ h2 {
 }
 a {
     border: 2px solid;
-    border-color: black;
     border-radius: 10px;
     padding: 2px;
 }
 .button {
-    background-color: #1c87c9;
+    background-color: #d19f95;
     border: none;
     color: white;
     padding: 10px;
@@ -39,7 +37,12 @@ a {
     cursor: pointer;
 }
 body {
-    background-image: url('pastel.webp');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    }
+    background: rgb(188,198,204);
+    background: linear-gradient(0deg, rgba(188,198,204,1) 8%, rgba(251,157,165,1) 86%);
+}
+.obr {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(224, 191, 184);
+}
+    
