@@ -1,0 +1,137 @@
+body {
+    font-size: 16px;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom-style: solid;
+    border-color: rgb(235, 192, 228);
+    border-width: 5px;
+    margin-top: 30px;
+}
+
+.topnav {
+    background-color: rgb(235, 192, 228);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(253, 252, 253);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(253, 162, 238);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: rgb(235, 192, 228);
+    color: rgb(0, 0, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto
+}
+
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.uvod {
+
+
+    background-color: rgb(235, 192, 228);
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: rgb(235, 192, 228);
+    border-width: 20px;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-left: 0;
+    margin-right: 0;
+    -webkit-flex: 10;
+    -ms-flex: 10;
+    flex: 10;
+
+}

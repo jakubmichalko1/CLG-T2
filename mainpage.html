@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>default</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styly/styly.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" a href=" ">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Svatba</h1>
+        </div>
+    </header>
+    <div class="topnav">
+        <a class="active" href="#uvod">Úvod</a>
+        <a href="#saty">Šaty na míru</a>
+        <a href="#nastym">Náš tým</a>
+        <a href="#crecenze">Co o nás říkají ostaní</a>
+        <a href="#kontakt">Kontakt</a>
+    </div>
+
+
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <div class="widthss"><img src="jpg.jpg" style="width:100%"></div>
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <div class="widthss"><img src="jpg.pjg" style="width:100%"></div>
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <div class="widthss"><img src="jpg.jpg" style="width:100%"></div>
+            <div class="text">Caption Three</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="uvod" id="uvod">
+        <h3>Úvod</h3>
+        <p>
+            Zde bude napsáno něco o tom, co naše stránka umí. teď jdu doplnit generátorem textu lol.
+            <br>
+            Vítr skoro nefouká a tak by se na první pohled mohlo zdát, že se balónky snad vůbec nepohybují. Jenom tak
+            klidně
+            levitují ve vzduchu. Jelikož slunce jasně září a na obloze byste od východu k západu hledali mráček marně,
+            balónky
+            působí jako jakási fata morgána uprostřed pouště. Zkrátka široko daleko nikde nic, jen zelenkavá tráva,
+            jasně modrá
+            obloha a tři křiklavě barevné pouťové balónky, které se téměř nepozorovatelně pohupují ani ne moc vysoko,
+            ani moc nízko
+            nad zemí. Kdyby pod balónky nebyla sytě zelenkavá tráva, ale třeba suchá silnice či beton, možná by bylo
+            vidět jejich
+            barevné stíny - to jak přes poloprůsvitné barevné balónky prochází ostré sluneční paprsky.
+        </p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 3000);
+        }
+    </script>
+</body>
+
+</html>
