@@ -23,6 +23,16 @@ body {
 
 
 }
+.nadpis {
+  padding-top: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  margin-block-start: 20px;
+  margin-block-end: 10px
+}
+p {
+  color: rgb(54, 69, 79);
+}
 /* Top Navigation */
     .topnav {
         background-color: rgb(243, 238, 231);
@@ -51,7 +61,6 @@ body {
     }
 
     
-
 * {
     box-sizing: border-box;
 }
@@ -314,8 +323,10 @@ padding: 10px;
   background-color: rgb(243, 238, 231);
   padding: 20px;
 
-}
 .copy {
   text-align: right;
   color: rgba(137, 148, 153, 0.233);
 }
+
+}
+
