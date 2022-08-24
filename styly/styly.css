@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     background-color: rgb(250, 248, 244);
+    margin: 0px;
 }
 /* colored stripe */
 .header {
@@ -32,7 +33,7 @@ body {
     }
 
     .topnav a:hover {
-        background-color: rgb(188,198, 204);
+        background-color: rgb(224, 191,184);
         color: rgb(0, 0, 0);
     }
 
@@ -139,3 +140,22 @@ body {
     -ms-flex: 10;
     flex: 10;  
     }
+/* Button*/
+    .button:hover{
+        background-color: rgb(224, 191,184);
+        color: white;
+      }
+    .button{
+        background-color: rgb(243, 238, 231);
+        color: #717171;
+        margin-left: 43%;
+        margin-right: auto;
+        border-radius: 17px;
+        margin-top: 100px;
+        padding: 30px;
+        border-color: rgb(224, 191,184);
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 17px;
+
+      }
