@@ -3,6 +3,7 @@ body {
     background-color: rgb(250, 248, 244);
     margin: 0px;
     font-family: 'Cinzel', serif;
+    color: rgb(54, 69, 79);
 }
 /* colored stripe */
 .header {
@@ -12,12 +13,11 @@ body {
     border-bottom-style: solid;
     border-color: rgb(243, 238, 231);
     border-width: 5px;
-    margin-top: 50px;
+    margin-top: 5%;
     margin-bottom: 15px;
     padding-top: 20px;
     font-family: 'Dancing Script',;
 
-/* nadpis */
 
 
 
@@ -31,6 +31,7 @@ body {
         top: 0px;
         width: 100%;
         z-index: 10;
+      
     }
 
     .topnav a {
@@ -40,16 +41,13 @@ body {
         padding: 16px;
         text-decoration: none;
         font-size: 17px;
+        
     }
 
     .topnav a:hover {
         background-color: rgb(219, 208, 193);
         color: rgb(250, 248, 244);
-    }
-
-    .topnav a.active {
-        background-color: rgb(243, 238, 231);
-        color: rgb(54, 69, 79);
+        
     }
 
     
@@ -69,7 +67,7 @@ body {
 
 
     .slideshow-container {
-        max-width: 1000px;
+      max-width: 1000px;
         position: relative;
         margin: auto
     }
@@ -162,9 +160,9 @@ body {
     .button{
         background-color: rgb(243, 238, 231);
         color: rgb(54, 69, 79);
-        margin-left: auto;
-        margin-right: auto;
         border-radius: 17px;
+        margin-left: 30%;
+        margin-right: 30%;
         margin-top: 100px;
         margin-bottom: 100px;
         padding: 30px;
@@ -218,7 +216,7 @@ body {
   }
 
   .oblicej, .overlay{
-    width: 200px;
+    width: 300px;
     float: center;
     height: auto;
     border-radius: 15px;
@@ -261,6 +259,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 7em;
+    margin-top: 3em;
   }
   
   @media (max-width: 800px) {
@@ -273,7 +273,7 @@ body {
   /* recenze */
 .review{
     float: left;
-    width: 1000px;
+    
     
     
     
@@ -290,15 +290,32 @@ body {
 
 #recenze{
   text-align: center;
+  padding-bottom: 20px;
   
 
 }
 
 .allreview{
-width:100%;
+width: 100%;
 height:auto;
 padding: 10px;
 
 }
 
+/*kontakty*/
 
+#kontakty {
+  font-weight: normal;
+  color: rgb(137, 148, 153);
+}
+
+.footer {
+  margin-top: 390px;
+  background-color: rgb(243, 238, 231);
+  padding: 20px;
+
+}
+.copy {
+  text-align: right;
+  color: rgba(137, 148, 153, 0.233);
+}
