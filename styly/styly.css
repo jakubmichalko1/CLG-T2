@@ -166,11 +166,7 @@ body {
         justify-content: center;
         text-align: center;
         text-decoration: none !important;
-    
         display: flex;
-        
-
-        
       }
 
   /* Scrollbar */
@@ -262,6 +258,17 @@ body {
     }
   }
 
+  /* recenze */
+.review{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.recimg{
+    max-height: 100px;
+    max-width: 100px;
+}
 
 
 
