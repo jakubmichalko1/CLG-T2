@@ -118,6 +118,11 @@ body {
         }
     }
 
+    .responsive{
+        width: auto;
+        height: auto;
+    }
+
 /* První paragraf */
 .uvod {
     background-color: rgb(243, 238, 231);
