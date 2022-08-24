@@ -13,7 +13,6 @@ img {
     border-radius: 8px;
     border-color: rgb(224, 191, 184);
 }
-
 .nadpis {
     padding-top: 15px;
     font-family: 'Dancing Script', cursive;
@@ -104,7 +103,7 @@ p {
 .header {
     padding: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
     border-bottom-style: solid;
     border-color: rgb(243, 238, 231);
     border-width: 5px;
