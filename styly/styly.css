@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     background-color: rgb(250, 248, 244);
     margin: 0px;
+    font-family: 'Cinzel', serif;
 }
 /* colored stripe */
 .header {
@@ -13,6 +14,16 @@ body {
     border-width: 5px;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+.nadpis {
+  padding-top: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  margin-block-start: 20px;
+  margin-block-end: 10px
+}
+p {
+  color: rgb(54, 69, 79);
 }
 /* Top Navigation */
     .topnav {
@@ -44,7 +55,6 @@ body {
     }
 
     
-
 * {
     box-sizing: border-box;
 }
@@ -269,6 +279,14 @@ body {
     max-height: 100px;
     max-width: 100px;
 }
-
+.footer {
+  margin-top: 20px;
+  background-color: rgb(243, 238, 231);
+  padding: 20px;
+}
+.copy {
+  text-align: right;
+  color: rgba(137, 148, 153, 0.233);
+}
 
 
