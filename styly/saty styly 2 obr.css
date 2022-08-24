@@ -14,10 +14,10 @@ img {
     border-color: rgb(224, 191, 184);
 }
 
-#nadpis {
+.nadpis {
     padding-top: 15px;
-    font-family: 'Mrs Saint Delafield', cursive;
-    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
     margin-block-start: 20px;
     margin-block-end: 10px
     }
