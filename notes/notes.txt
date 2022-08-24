@@ -1,0 +1,2 @@
+barva pozadí - rgb(250, 248, 244)
+barva hlavní - rgb(243, 238, 231)
