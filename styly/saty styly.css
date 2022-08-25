@@ -35,8 +35,7 @@ p {
 /*tlacitka*/
 /* Button*/
 .button:hover {
-    background-color:
-        color: rgb(250, 248, 244);
+    background-color: rgb(250, 248, 244);
 }
 
 .button {
