@@ -167,6 +167,7 @@ padding-bottom: 10px;
     -webkit-flex: 10;
     -ms-flex: 10;
     flex: 10;  
+    text-align: justify;
     }
 /* Button*/
     .button:hover{

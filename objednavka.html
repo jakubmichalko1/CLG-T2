@@ -62,12 +62,62 @@
             background-color: rgb(250, 248, 244);
             padding: 20px;
         }
+        h3 {
+        background-color: rgb(243, 238, 231);
+        padding: 10px;
+        padding-top: 3em;
+        border-bottom-style: solid;
+        border-color: rgb(243, 238, 231);
+        border-width: 20px;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin-left: 0;
+        margin-right: 0;
+        -webkit-flex: 10;
+        -ms-flex: 10;
+        flex: 10;
+        text-align: center;
+        color:rgb(54, 69, 79);
+    }
+    .topnav {
+        background-color: rgb(243, 238, 231);
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 10;
+      
+    }
+
+    .topnav a {
+        float: left;
+        color: rgb(54, 69, 79);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 17px;
+        
+    }
+
+    .topnav a:hover {
+        background-color: rgb(219, 208, 193);
+        color: rgb(250, 248, 244);
+        
+    }
+
     </style>
 </head>
 
 <body>
-
-    <h3>Contact Form</h3>
+    <div class="topnav">
+        <a href="mainpage.html">Úvod</a>
+        <a href="mainpage.html">Šatynátor</a>
+        <a href="mainpage.html">Náš tým</a>
+        <a href="mainpage.html">Co o nás říkají ostaní</a>
+        <a href="mainpage.html">Kontakt</a>
+    </div>
+    <div><h3>Contact Form</h3></div>
+    
 
     <div class="container">
         <form action="/action_page.php">
@@ -82,12 +132,15 @@
                 <option value="australia">Australia</option>
                 <option value="canada">Canada</option>
                 <option value="usa">USA</option>
+                <option value="czech republic">Czechia</option>
+                <option value="slovakia">Slovakia</option>
             </select>
 
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
             <input type="submit" value="Submit">
+            
         </form>
     </div>
 
