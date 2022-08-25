@@ -9,7 +9,7 @@ body {
 .header {
     padding: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     border-bottom-style: solid;
     border-color: rgb(243, 238, 231);
     border-width: 5px;
@@ -60,12 +60,19 @@ p {
         
     }
 
+    .funguj{
+padding-top: 10px;
+padding-bottom: 10px;
+    }
+
     
+
+
+/* SLideshow */
 * {
     box-sizing: border-box;
 }
 
-/* SLideshow */
     .mySlides {
         display: none;
     }
@@ -227,7 +234,7 @@ p {
   .oblicej, .overlay{
     width: 300px;
     float: center;
-    height: auto;
+    height: 400px;
     border-radius: 15px;
     display: block;
     margin-left: auto;
