@@ -232,9 +232,9 @@ padding-bottom: 10px;
   }
 
   .oblicej, .overlay{
-    width: 300px;
+    width: 230px;
     float: center;
-    height: 400px;
+    height: 300px;
     border-radius: 15px;
     display: block;
     margin-left: auto;
