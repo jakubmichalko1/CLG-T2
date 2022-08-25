@@ -2,6 +2,8 @@ body {
     font-size: 16px;
     background-color: rgb(250, 248, 244);
     margin: 0px;
+    font-family: 'Cinzel', serif;
+    color: rgb(54, 69, 79);
 }
 /* colored stripe */
 .header {
@@ -11,8 +13,25 @@ body {
     border-bottom-style: solid;
     border-color: rgb(243, 238, 231);
     border-width: 5px;
-    margin-top: 30px;
+    margin-top: 5%;
     margin-bottom: 15px;
+    padding-top: 20px;
+    font-family: 'Dancing Script',;
+
+
+
+
+
+}
+.nadpis {
+  padding-top: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  margin-block-start: 20px;
+  margin-block-end: 10px
+}
+p {
+  color: rgb(54, 69, 79);
 }
 /* Top Navigation */
     .topnav {
@@ -22,6 +41,7 @@ body {
         top: 0px;
         width: 100%;
         z-index: 10;
+      
     }
 
     .topnav a {
@@ -31,20 +51,16 @@ body {
         padding: 16px;
         text-decoration: none;
         font-size: 17px;
+        
     }
 
     .topnav a:hover {
         background-color: rgb(219, 208, 193);
         color: rgb(250, 248, 244);
-    }
-
-    .topnav a.active {
-        background-color: rgb(243, 238, 231);
-        color: rgb(54, 69, 79);
+        
     }
 
     
-
 * {
     box-sizing: border-box;
 }
@@ -60,7 +76,7 @@ body {
 
 
     .slideshow-container {
-        max-width: 1000px;
+      max-width: 1000px;
         position: relative;
         margin: auto
     }
@@ -87,23 +103,25 @@ body {
 
 
     .dot {
-        height: 15px;
-        width: 15px;
+        height: 10px;
+        width: 10px;
         margin: 0 2px;
-        background-color: #bbb;
+        background-color: rgb(243, 238, 231);
         border-radius: 50%;
         display: inline-block;
-        transition: background-color 0.6s ease;
+        transition: 0.6s ease;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 
     .active {
-        background-color: #717171;
+        background-color: rgb(219, 208, 193);
     }
 
 
     .fade {
         animation-name: fade;
-        animation-duration: 1.5s;
+        animation-duration: 3.0s;
     }
 
     @keyframes fade {
@@ -151,9 +169,9 @@ body {
     .button{
         background-color: rgb(243, 238, 231);
         color: rgb(54, 69, 79);
-        margin-left: auto;
-        margin-right: auto;
         border-radius: 17px;
+        margin-left: 30%;
+        margin-right: 30%;
         margin-top: 100px;
         margin-bottom: 100px;
         padding: 30px;
@@ -166,11 +184,8 @@ body {
         justify-content: center;
         text-align: center;
         text-decoration: none !important;
-    
         display: flex;
-        
-
-        
+        font-family: 'Cinzel', serif;
       }
 
   /* Scrollbar */
@@ -210,7 +225,7 @@ body {
   }
 
   .oblicej, .overlay{
-    width: 200px;
+    width: 300px;
     float: center;
     height: auto;
     border-radius: 15px;
@@ -253,6 +268,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 7em;
+    margin-top: 3em;
   }
   
   @media (max-width: 800px) {
@@ -262,6 +279,54 @@ body {
     }
   }
 
+  /* recenze */
+.review{
+    float: left;
+    
+    
+    
+    
+}
+
+.recimg{
+  margin-left: 20px;
+  float:left; 
+  height: 80px;
+  width:80px; 
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+#recenze{
+  text-align: center;
+  padding-bottom: 20px;
+  
+
+}
+
+.allreview{
+width: 100%;
+height:auto;
+padding: 10px;
+
+}
+
+/*kontakty*/
+
+#kontakty {
+  font-weight: normal;
+  color: rgb(137, 148, 153);
+}
+
+.footer {
+  margin-top: 390px;
+  background-color: rgb(243, 238, 231);
+  padding: 20px;
+}
+.copy {
+  text-align: right;
+  color: rgba(137, 148, 153, 0.233);
+}
 
 
 
